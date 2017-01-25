@@ -12,4 +12,4 @@ pip install infoblox-client
 
 Usage:
 
-infoblox_generate_ptr_from_a_records.py -i <Infoblox_IP> -u <username> -p <password> -v <dnsview> -z <DNSZone>
+infoblox_generate_ptr_from_a_records.py -i \<Infoblox_IP\> -u \<username\> -p \<password\> -v \<dnsview\> -z \<DNSZone\>
