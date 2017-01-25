@@ -4,7 +4,7 @@ logging.basicConfig(level=logging.DEBUG)
 #logging.basicConfig(level=logging.ERROR)
 from infoblox_client import connector
 from infoblox_client import objects
-from IPy import IP
+#from IPy import IP
 
 def a2ptr(ip,username,password,dnsview,dns_auth_zone,ssl_verify):
 
@@ -65,7 +65,3 @@ if __name__ == "__main__":
    main(sys.argv[1:])
 
 #a2ptr(host,username,password,view,dns_auth_zone,ssl_verify)
-
-
-
-
